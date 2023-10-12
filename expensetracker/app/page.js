@@ -1,6 +1,5 @@
 "use client"
 
-import Image from 'next/image'
 import React, {useState, useEffect} from 'react';
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
