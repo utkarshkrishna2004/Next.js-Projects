@@ -51,7 +51,7 @@ function InputItem({ type }) {
          {type == "source" ? <StopCircleIcon /> : <RadioButtonCheckedIcon />}
          
          <GooglePlacesAutocomplete
-            apiKey={process.env.NEXT_PUBLIC_GOOGLE_API_KEY}
+            
             selectProps={{
                value,
                onChange: (place) => {
